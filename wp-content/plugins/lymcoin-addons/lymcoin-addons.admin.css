@@ -1,0 +1,6 @@
+/* Visual Composer icons for widgets and shortcodes
+-----------------------------------------------------------------*/
+
+/* Shortcode: RoadMap */
+.vc_element-icon.icon_trx_sc_roadmap,
+.wpb_trx_sc_example .icon_trx_sc_roadmap { background-image:url(shortcodes/roadmap/roadmap.png) !important; background-repeat:no-repeat; background-position:0 0 !important; }

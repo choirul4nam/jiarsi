@@ -1,0 +1,111 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+form.mc4wp-form {
+	position:relative;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	width: 100%;
+	vertical-align:top;
+	@include border-box;
+	@include box-shadow(none);
+}
+form.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	@include abs-rt;
+	max-width:8em;
+	vertical-align:top;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+form.mc4wp-form .mc4wp-alert {
+	margin: 1.5em 0;
+	padding: 1em;
+	line-height:1.5em;
+}
+
+
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+  width: 100%;
+  vertical-align:top;
+}
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+  @include border-box;
+  @include abs-rt;
+  max-width:9.5em;
+  padding: 1.6em 2.1em;
+  vertical-align:top;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"],
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+  @include box-sizing(border-box);
+}
+
+.mc4wp-form .mc4wp-alert {
+  margin: 1em auto 0;
+  font-size: 0.833em;
+  padding: 1em;
+  text-align: center;
+  -webkit-border-radius: 1em;
+  -ms-border-radius: 1em;
+  border-radius: 1em;
+}
+
+
+/* Mail Chimp */
+.mc4wp-response,
+.mailchimp_form .mailchimp_inputs{
+  width: 556px;
+  max-width: 90%;
+  margin: auto;
+}
+.mailchimp_form input,
+.mailchimp_form button {
+  height: 2.95rem;
+  display:inline-block;
+  box-sizing: border-box;
+}
+body .mailchimp_form input[type="email"] {
+  width: 100%;
+  min-width: 3rem;
+  margin-right: 0;
+  line-height: 1.5;
+  border: none !important;
+  padding: 0.5em 1.5em;
+}
+.mailchimp_form button{
+  padding: 1em;
+  white-space: nowrap;
+  font-size: 0.722em;
+  border: none !important;
+  position: relative;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"],
+form.mc4wp-form .mc4wp-form-fields input[type="submit"],
+.mailchimp_form button{
+  @include border-radius(3em);
+}
+.mailchimp_form input[type="email"] + button {
+  margin-left: -55px;
+}
+body .mailchimp_form .mailchimp_inputs input[type="email"] {
+  padding-right: 55px;
+  width: calc(100% - 105px);
+}
+.mailchimp_form button {
+  width: 160px;
+}
+
+@media (max-width: 479px) {
+
+  .mailchimp_form button {
+    padding: 0.7em;
+  }
+
+  body .mailchimp_form .mailchimp_inputs input[type="email"] {
+    padding-right: 35px;
+    width: calc(100% - 90px);
+  }
+  .mailchimp_form input[type="email"] + button{   margin-left: -30px;}
+  body .mailchimp_form input[type="email"] {      padding-right:  8.563rem;  }
+  .mailchimp_form button {                        width: 6.763rem;}
+}

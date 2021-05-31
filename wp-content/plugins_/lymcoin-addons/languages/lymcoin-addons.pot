@@ -1,0 +1,249 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lymcoin Addons\n"
+"POT-Creation-Date: 2018-05-21 14:42+0300\n"
+"PO-Revision-Date: 2015-10-06 14:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: ThemeREX\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n;_n_noop;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: shortcodes/roadmap/roadmap.php:44
+msgid "Learn more"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:106 shortcodes/roadmap/roadmap.php:195
+#: shortcodes/roadmap/roadmap.php:236 shortcodes/roadmap/roadmap.php:371
+#: shortcodes/roadmap/roadmap.php:512 shortcodes/roadmap/roadmap.php:547
+msgid "Roadmap"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:107
+msgid "Add block with roadmaps"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:108
+msgid "ThemeREX"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:118 shortcodes/roadmap/roadmap.php:243
+#: shortcodes/roadmap/roadmap.php:499
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:119 shortcodes/roadmap/roadmap.php:500
+msgid "Select shortcodes's layout"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:123
+msgid "Default"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:130 shortcodes/roadmap/roadmap.php:511
+msgid "Roadmaps"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:131
+msgid "Select icon, specify roadmap, title and/or description for each item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:134
+msgid "One"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:141 shortcodes/roadmap/roadmap.php:328
+#: shortcodes/roadmap/roadmap.php:521
+msgid "Title"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:142
+msgid "Title of the roadmap"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:148
+msgid "Date"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:149
+msgid "Roadmap date. Example: March 2021"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:254 shortcodes/roadmap/roadmap.php:506
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:255 shortcodes/roadmap/roadmap.php:507
+msgid ""
+"Specify number of columns for icons. If empty - auto detect by items number"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:276
+msgid "Light"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:281 shortcodes/roadmap/roadmap.php:297
+#: shortcodes/roadmap/roadmap.php:313
+msgid "Get this plan"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:292
+msgid "Premium"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:308
+msgid "Unlimited"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:332
+msgid "Item's title"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:337 shortcodes/roadmap/roadmap.php:526
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:341
+msgid "Item's subtitle"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:346 shortcodes/roadmap/roadmap.php:531
+msgid "Label"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:349 shortcodes/roadmap/roadmap.php:532
+msgid ""
+"If not empty - colored band with this text is showed at the top corner of "
+"roadmap block"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:350
+msgid "Label's text"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:355 shortcodes/roadmap/roadmap.php:537
+msgid "Description"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:358
+msgid "Short description of this item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:363 shortcodes/roadmap/roadmap.php:366
+#: shortcodes/roadmap/roadmap.php:542
+msgid "Before roadmap"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:374 shortcodes/roadmap/roadmap.php:548
+msgid "Roadmap value"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:379 shortcodes/roadmap/roadmap.php:382
+#: shortcodes/roadmap/roadmap.php:552
+msgid "After roadmap"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:387 shortcodes/roadmap/roadmap.php:558
+msgid "Details"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:395 shortcodes/roadmap/roadmap.php:563
+msgid "Link"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:398
+msgid "http://your-link.com"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:402 shortcodes/roadmap/roadmap.php:405
+msgid "Link's text"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:413
+msgid "Image"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:421
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:431
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:481
+msgid "ThemeREX Roadmap"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:484
+msgid "Display roadmap table"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:522
+msgid "Enter title of the item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:527
+msgid "Enter subtitle of the item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:538
+msgid "Enter short description of the item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:543
+msgid "Any text before the roadmap value"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:553
+msgid "Any text after the roadmap value"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:559
+msgid "Roadmap details"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:564
+msgid "Specify URL of the button under details"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:568
+msgid "Link text"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:569
+msgid "Specify caption of the button under details"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:576
+msgid "or Icon image"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:577
+msgid "Select or upload image to display it at top of this item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:581
+msgid "Background image"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:582
+msgid "Select or upload image to use it as background of this item"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:586
+msgid "Background color"
+msgstr ""
+
+#: shortcodes/roadmap/roadmap.php:587
+msgid "Select custom background color of this item"
+msgstr ""

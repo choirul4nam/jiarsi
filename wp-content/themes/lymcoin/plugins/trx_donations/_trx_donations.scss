@@ -1,0 +1,23 @@
+/* ThemeREX Donations styles
+----------------------------------------------------------------- */
+
+.post-type-archive-donation .page-header,
+.tax-donation_category .page-header {
+	display: none;
+}
+
+.single-donation .nav-links .nav-previous .post-title,
+.single-donation .nav-links .nav-next .post-title {
+	@include transition-color;
+}
+
+.post_item_single .post_header .post_title {
+  font-size: 2em;
+}
+.sc_donations_form_label,
+.sc_donations_form_amount_label {
+  margin-bottom: 1em;
+}
+.single-donation .nav-links .nav-previous .post-title, .single-donation .nav-links .nav-next .post-title {
+  font-size: 1em;
+}

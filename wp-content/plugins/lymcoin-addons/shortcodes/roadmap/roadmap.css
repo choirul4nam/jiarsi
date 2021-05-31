@@ -1,0 +1,100 @@
+/* Roadmap */
+.sc_roadmap .roadmap_bar {
+  position: relative;
+  display: block;
+  margin: 7px 0;
+  width: 100%;
+  height: 6px;
+  z-index: 3;
+  -webkit-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  transition-property: width, background-color; }
+
+.sc_roadmap .roadmap_bar-bar {
+  height: 6px;
+  width: 0; }
+
+.sc_roadmap .sc_roadmap_item_circle {
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 1; }
+
+.sc_roadmap .sc_roadmap_item_circle:before {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 6px;
+  left: 6px; }
+
+.sc_roadmap .sc_roadmap_item_title {
+  font-size: 0.889em;
+  line-height: 1.33;
+  margin-bottom: 0.25em; }
+
+.sc_roadmap .sc_roadmap_item_date {
+  font-size: 14px; }
+
+.sc_roadmap .sc_roadmap_columns_wrap {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative; }
+
+.sc_roadmap .sc_roadmap_columns_wrap > div {
+  padding: 0 !important; }
+
+.sc_roadmap .sc_roadmap_columns_wrap > .sc_roadmap_odd {
+  vertical-align: bottom; }
+
+.sc_roadmap .sc_roadmap_columns_wrap > .sc_roadmap_even {
+  vertical-align: top; }
+
+.sc_roadmap .sc_roadmap_item:hover {
+  cursor: pointer; }
+
+.sc_roadmap .sc_roadmap_item {
+  position: relative;
+  padding: 0.15em 0 1.25em; }
+
+.sc_roadmap .sc_roadmap_item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: -1.556em;
+  right: -1.556em;
+  -webkit-transition: box-shadow 0.3s ease;
+  -ms-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease; }
+
+@media (max-width: 767px) {
+  .sc_roadmap .sc_roadmap_item {
+    padding-left: 1.556em;
+    padding-right: 1.556em; }
+
+  .sc_roadmap .sc_roadmap_item:before {
+    left: 0;
+    right: 0; }
+
+  .sc_roadmap .roadmap_bar {
+    display: none; }
+
+  .sc_roadmap .sc_roadmap_columns_wrap > div[class*="trx_addons_column-"] {
+    margin-left: 0 !important;
+    margin-right: 0 !important; } }
+
+/*# sourceMappingURL=roadmap.css.map */
